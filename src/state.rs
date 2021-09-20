@@ -1,3 +1,8 @@
+use borsh::{BorshDeserialize, BorshSerialize};
+use solana_program::pubkey::Pubkey;
+
+use crate::{id, COUNTER_SEED, SETTINGS_SEED};
+
 pub struct Counter {
     pub counter: u32,
     pub value: i64,
