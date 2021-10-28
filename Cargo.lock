@@ -2087,9 +2087,11 @@ name = "solana-counter-bpf"
 version = "0.1.0"
 dependencies = [
  "assert_matches",
+ "borsh",
  "solana-program",
  "solana-program-test",
  "solana-sdk",
+ "thiserror",
 ]
 
 [[package]]
